@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_instagram_instaposts",
+  "info": {
+    "name": "instaposts",
+    "icon": "grip-horizontal"
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "string"
+    }
+  }
+}

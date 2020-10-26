@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/o-firmie-instagram",
+      "handler": "o-firmie-instagram.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/o-firmie-instagram",
+      "handler": "o-firmie-instagram.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/o-firmie-instagram",
+      "handler": "o-firmie-instagram.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

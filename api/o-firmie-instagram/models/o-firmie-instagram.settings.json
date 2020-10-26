@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "o_firmie_instagrams",
+  "info": {
+    "name": "GM - O Firmie - instagram"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "instaposts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "instagram.instaposts",
+      "max": 4
+    }
+  }
+}

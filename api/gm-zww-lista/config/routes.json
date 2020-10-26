@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gm-zww-lista",
+      "handler": "gm-zww-lista.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gm-zww-lista",
+      "handler": "gm-zww-lista.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gm-zww-lista",
+      "handler": "gm-zww-lista.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "o_firmie_teksts",
+  "info": {
+    "name": "GM - O Firmie - tekst"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Opis": {
+      "type": "richtext"
+    }
+  }
+}

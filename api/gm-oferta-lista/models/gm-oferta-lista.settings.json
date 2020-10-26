@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "gm_oferta_listas",
+  "info": {
+    "name": "GM - Oferta - lista"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Lista": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.list"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

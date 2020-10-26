@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_realizacje_listas",
+  "info": {
+    "name": "Lista",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "text"
+    },
+    "gallery": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "tittle": {
+      "type": "string"
+    }
+  }
+}

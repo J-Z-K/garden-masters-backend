@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "gm_zww_listas",
+  "info": {
+    "name": "GM - ZWW - lista"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Lista": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.list"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

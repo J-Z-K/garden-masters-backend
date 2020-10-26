@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_sliders",
+  "info": {
+    "name": "GM - O Firmie - slider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sliders.slide"
+    }
+  }
+}

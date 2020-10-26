@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/o-firmie-tekst",
+      "handler": "o-firmie-tekst.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/o-firmie-tekst",
+      "handler": "o-firmie-tekst.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/o-firmie-tekst",
+      "handler": "o-firmie-tekst.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
