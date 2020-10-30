@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "gm_realizacje_inwentaryzacjes",
+  "info": {
+    "name": "GM - Realizacje - inwentaryzacje"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.list"
+    }
+  }
+}

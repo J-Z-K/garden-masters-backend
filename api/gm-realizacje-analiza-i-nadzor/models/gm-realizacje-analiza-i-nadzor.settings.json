@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "gm_realizacje_analiza_i_nadzors",
+  "info": {
+    "name": "GM - Realizacje - analiza i nadzór"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.lists"
+    }
+  }
+}

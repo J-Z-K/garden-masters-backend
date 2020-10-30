@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gm-zww-slider",
+      "handler": "gm-zww-slider.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gm-zww-slider",
+      "handler": "gm-zww-slider.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gm-zww-slider",
+      "handler": "gm-zww-slider.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

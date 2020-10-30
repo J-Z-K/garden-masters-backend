@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "gm_sdz_grs_ulotkas",
+  "info": {
+    "name": "GM - SDZ GRS - ulotka"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ulotka": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

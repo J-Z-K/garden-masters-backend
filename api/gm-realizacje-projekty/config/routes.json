@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gm-realizacje-projekty",
+      "handler": "gm-realizacje-projekty.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gm-realizacje-projekty",
+      "handler": "gm-realizacje-projekty.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gm-realizacje-projekty",
+      "handler": "gm-realizacje-projekty.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "gm_kontakts",
+  "info": {
+    "name": "GM - Kontakt"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "adres1": {
+      "type": "string"
+    },
+    "adres2": {
+      "type": "string"
+    },
+    "krs": {
+      "type": "string"
+    },
+    "nip": {
+      "type": "string"
+    },
+    "regon": {
+      "type": "string"
+    },
+    "nr_rachunku_bankowego": {
+      "type": "string"
+    },
+    "adres_biura1": {
+      "type": "string"
+    },
+    "adres_biura2": {
+      "type": "string"
+    },
+    "adres_biura_tel": {
+      "type": "string"
+    },
+    "adres_biura_email": {
+      "type": "string"
+    }
+  }
+}

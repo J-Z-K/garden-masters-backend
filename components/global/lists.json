@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_global_lists",
+  "info": {
+    "name": "lists",
+    "icon": "grip-vertical"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.list"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

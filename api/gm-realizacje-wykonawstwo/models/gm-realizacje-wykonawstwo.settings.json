@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "gm_realizacje_wykonawstwos",
+  "info": {
+    "name": "GM - Realizacje - wykonawstwo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.lists"
+    }
+  }
+}

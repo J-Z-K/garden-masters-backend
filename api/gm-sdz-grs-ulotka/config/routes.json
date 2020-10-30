@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gm-sdz-grs-ulotka",
+      "handler": "gm-sdz-grs-ulotka.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gm-sdz-grs-ulotka",
+      "handler": "gm-sdz-grs-ulotka.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gm-sdz-grs-ulotka",
+      "handler": "gm-sdz-grs-ulotka.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

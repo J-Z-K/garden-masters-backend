@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sliders_slied_without_descs",
+  "info": {
+    "name": "slied_without_desc",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

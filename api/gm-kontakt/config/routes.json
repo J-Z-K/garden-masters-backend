@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gm-kontakt",
+      "handler": "gm-kontakt.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gm-kontakt",
+      "handler": "gm-kontakt.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gm-kontakt",
+      "handler": "gm-kontakt.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

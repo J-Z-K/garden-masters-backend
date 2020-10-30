@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gm-realizacje-analiza-i-nadzor",
+      "handler": "gm-realizacje-analiza-i-nadzor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gm-realizacje-analiza-i-nadzor",
+      "handler": "gm-realizacje-analiza-i-nadzor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gm-realizacje-analiza-i-nadzor",
+      "handler": "gm-realizacje-analiza-i-nadzor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

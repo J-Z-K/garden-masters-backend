@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gm-realizacje-inwentaryzacje",
+      "handler": "gm-realizacje-inwentaryzacje.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gm-realizacje-inwentaryzacje",
+      "handler": "gm-realizacje-inwentaryzacje.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gm-realizacje-inwentaryzacje",
+      "handler": "gm-realizacje-inwentaryzacje.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

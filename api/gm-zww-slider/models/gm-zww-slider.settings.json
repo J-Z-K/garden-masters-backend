@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "gm_zww_sliders",
+  "info": {
+    "name": "GM - ZWW - slider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "slied_without_desc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sliders.slied-without-desc"
+    }
+  }
+}
