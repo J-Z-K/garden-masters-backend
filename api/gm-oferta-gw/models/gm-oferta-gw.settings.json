@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "gm_oferta_gws",
+  "info": {
+    "name": "GM - Oferta - gw"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "logos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

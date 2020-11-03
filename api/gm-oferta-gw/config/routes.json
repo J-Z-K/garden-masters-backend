@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gm-oferta-gw",
+      "handler": "gm-oferta-gw.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gm-oferta-gw",
+      "handler": "gm-oferta-gw.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gm-oferta-gw",
+      "handler": "gm-oferta-gw.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
