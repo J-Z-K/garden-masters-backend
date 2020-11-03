@@ -113,4 +113,3 @@ exports
 .cache
 build
 .config
-config/database.js
