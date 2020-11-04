@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gm-realizacje-wkonawstwo-slider",
+      "handler": "gm-realizacje-wkonawstwo-slider.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gm-realizacje-wkonawstwo-slider",
+      "handler": "gm-realizacje-wkonawstwo-slider.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gm-realizacje-wkonawstwo-slider",
+      "handler": "gm-realizacje-wkonawstwo-slider.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

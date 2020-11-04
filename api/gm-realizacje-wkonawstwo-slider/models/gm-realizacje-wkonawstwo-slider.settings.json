@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "gm_realizacje_wkonawstwo_sliders",
+  "info": {
+    "name": "GM - Realizacje - wkonawstwo slider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sliders.slied-without-desc"
+    }
+  }
+}
