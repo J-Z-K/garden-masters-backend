@@ -12,7 +12,7 @@
     "slides": {
       "type": "component",
       "repeatable": true,
-      "component": "sliders.slied-without-desc"
+      "component": "sliders.slide"
     }
   }
 }
